@@ -11,11 +11,9 @@ git checkout -b "branchname"
 -- Pushing to github.
 git add .
 git commit -m "description"
-git push
+git push --set-upstream origin "branchname"
 
-
-
-
+-- Send pull request on Github.
 
 
 -- Useful Git Commands:
