@@ -7,5 +7,5 @@ function printMarinaraSauceRecipe () {
     console.log("- Add 1/4 cup water, 2 cans of crushed tomatoes, and salt and season with black pepper to taste.")
     console.log("- Cover the pot, bring to a boil, reduce the heat to medium low, and simmer until the sauce is heated, about 10 minutes.")
     console.log("- Stir in 1/4 cup roughly chopped fresh basil, salt and pepper as needed.")
-    
+    console.log("- Enjoy!")
 }
