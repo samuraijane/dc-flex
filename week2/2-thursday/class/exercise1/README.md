@@ -1,0 +1,1 @@
+Write a function named `calc` that takes in three parameters– an integer, an integer, and callback– and uses the passed-in callback to further manipulate the passed-in integers. Write at least two different callbacks that manipulate the integers in some way.
