@@ -28,3 +28,4 @@ function lvl6exercise3 () {
     return arr;
 }
 console.log(lvl6exercise3());
+// this is a comment
