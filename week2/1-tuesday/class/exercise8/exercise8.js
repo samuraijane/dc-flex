@@ -14,3 +14,23 @@ function numberCounter(numbers){
 }
 
 numberCounter(randomNumbers);
+
+// @caitlincraw : pretty much did the same thing besides created an empty object at the beginning and then added the summations to it. 
+
+function sums(nums) {
+    var summationOfSigns = {};
+    var sumOfNeg = 0;
+    var sumOfPos = 0;
+    for (var i = 0; i < nums.length; i++) {
+        if (nums[i] < 0) {
+            sumOfNeg = sumOfNeg + nums[i];
+        } else if (numsList[i] > 0) {
+            sumOfPos = sumOfPos + nums[i];
+        }
+    }
+    summationOfSigns["Summation of Negative Numbers"] = sumOfNeg;
+    summationOfSigns["Summation of Positive Numbers"] = sumOfPos;
+    return summationOfSigns;
+}
+
+console.log(sums(randomNumbers));
