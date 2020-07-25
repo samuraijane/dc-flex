@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+    margin: 20px 50px;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    color: #003366;
+}
+
+
+.header {
+    background-image: url('https://images.unsplash.com/photo-1452457436726-a8e6ea2adf29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    height: 120%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 60px;
+    background-position: top center;
+}
+
+.profile {
+    position: fixed;
+    line-height: 100%;
+}
+
+.section {
+    padding: 10px;
+    margin-left: 1rem;
+    line-height: 125%;
+}
+#expheader {
+    word-spacing: 6px;
+    padding: 15px;
+}
+
+.list li {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 10px 0 10px 20px;
+    text-indent: -1em; 
+}
+.footer {
+    padding: 50px;
+    font-size: 15px;
+    line-height: 200%;
+}
