@@ -55,11 +55,12 @@ body {
 }
 
 .headshot {
-    border: 3px solid black;
-    border-radius: 25px;
+    border: 4px solid black;
+    border-radius: 75px;
 }
 
 .icon {
     border: 5px solid black;
     border-radius: 50px;
+    margin: 0 0 0 25px;
 }
