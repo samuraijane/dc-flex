@@ -49,6 +49,7 @@ body {
     width: 600px;
     margin: 0 auto;
     background-color: #2b6975;
+    opacity: 0.9;
     padding: 0 20px 0px 20px;
     border: 5px solid black;
     line-height: 1.5;
@@ -57,10 +58,18 @@ body {
 .headshot {
     border: 4px solid black;
     border-radius: 75px;
+    object-fit: cover;
+    width: 200px;
+    height: 250px;
 }
 
 .icon {
     border: 5px solid black;
     border-radius: 50px;
+}
+
+/* hmmm doesn't seem to be working how I want */
+
+.icon:first-of-type {
     margin: 0 0 0 25px;
 }
