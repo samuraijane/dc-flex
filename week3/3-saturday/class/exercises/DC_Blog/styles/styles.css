@@ -1,0 +1,78 @@
+html {
+    background-color: rgba(244, 244, 244, 1);
+}
+
+header, footer, .titleSection {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.dclogo {
+    width: 50px;
+    padding: 5px 5px 0 0;
+}
+
+.blogName {
+    display: inline;
+    font-size: 25px;
+    font-weight: normal;
+    color: rgba(51, 51, 51, 1);
+    
+}
+
+ul.headerNavbar {
+    color: rgba(100, 100, 100, 1);
+    float: right;
+}
+
+ul.headerNavbar>li {
+    text-align: right;
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.titleSection {
+    text-align: center;
+}
+
+.postTitle {
+    font-weight: normal;
+    color: rgba(51, 51, 51, 1);
+}
+
+.postDate {
+    font-size: 10px;
+    color: rgba(186, 186, 186, 1);
+    margin: 15px 0 5px 0;
+}
+
+button {
+    display: inline-block;
+    color: white;
+    font-size: 10px; 
+    background-color: rgba(78, 154, 195, 1);
+    border: 0px;
+    border-radius: 1px;
+    padding: 5px 15px;
+}
+
+.postNarrative {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color: rgba(69, 69, 69, 1);
+    
+}
+ul.footerNavbar {
+    color: rgba(146, 146, 146, 1);
+    padding: 0;
+}
+
+ul.footerNavbar>li {
+    display: inline;
+    padding: 5px 5px;
+}
+
+h6 {
+    font-size: 10px;
+    text-align: center;
+    color: rgba(128, 128, 128, 1);
+}
