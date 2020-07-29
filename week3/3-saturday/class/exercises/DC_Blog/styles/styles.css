@@ -75,6 +75,7 @@ button {
     margin: 0 170 50 170;
     font-family: "Dosis", sans-serif;
     font-size: 14;
+    width: 600;
 }
 
 hr {
