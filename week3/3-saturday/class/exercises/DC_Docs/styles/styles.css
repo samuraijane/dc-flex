@@ -1,0 +1,105 @@
+body {
+    padding: 0;
+}
+
+.navbar{
+    background-color:#555555;
+    color:white;
+    position: fixed;
+    top: 3;
+    left: 3;
+    bottom: 0;
+    width: 190;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navtitle {
+    word-spacing: 0px;
+    font-weight: 400;
+    font-size: 17;
+    margin: 0;
+    padding: 30 0 0 20;
+}
+
+.search {
+    margin: 15 30 0 20;
+    padding: 3 0 3 5;
+    font-size: 12;
+    border: 2px solid;
+    border-radius: 3px;
+    color: #959595;
+}
+.search input {
+    width: 125;
+    border: none;
+    background-color:#555555;
+}
+.navlinks {
+    padding: 0 0 0 20;
+    line-height: 2.5;
+}
+
+.navlinks a{
+    text-decoration: none;
+    color: white;
+}
+
+.navlinks li {
+    list-style-type: none;
+    text-align: left;
+}
+
+.content {
+    margin-left: 220;
+    margin-right: 50;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.title h1{
+    display:inline;
+    font-weight: 500;
+    font-size: 36;
+    margin: 0 0 0 20;
+}
+
+.title p {
+    margin: 30 0 5 0;
+    font-size: 13;
+}
+
+.quote {
+    background-color:#e6e3de;
+    margin: 30 0 50 0;
+    border-left: 5px solid #c3c3c2;
+    padding: 0;
+    font-style: italic;
+    font-size: 13;
+    word-spacing: .2em;;
+    line-height: 1.8em;
+    color: grey;
+}
+
+.bodytext h6{
+    font-weight: bolder;
+    font-size:10;
+    margin: 35 0 15 0;
+}
+
+.bodytext p {
+    font-size: 14;
+}
+
+.QM1 {
+    font-size: ;
+}
+
+.QM2 {
+
+    font-size: ;
+}
+
+.quoteauthor {
+    text-align: right;
+}
