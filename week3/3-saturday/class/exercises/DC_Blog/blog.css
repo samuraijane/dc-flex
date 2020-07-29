@@ -37,6 +37,7 @@ button {
 .ipsum{
     text-align: justify;
     margin: auto;
+    padding: 50px;
     font-family: Times, 'Times New Roman', serif;
 
 }
@@ -52,4 +53,11 @@ hr{
 }
 .bottab{
     text-align: left;
+}
+
+.copy{
+    color: #a9a9a9;
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
 }
