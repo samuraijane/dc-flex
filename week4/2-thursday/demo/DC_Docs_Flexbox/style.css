@@ -1,27 +1,25 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
-  
-html, body {
-    height: 100%;
+
+body {
     overflow: hidden;
 }
 
 .container {
-    height: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
 }
 
 .sidebar{
-    box-sizing: border-box;
     position: relative;
-    width: 250px;
-    height: 100%;
-    float: left;
+    width: 25%;
     padding: 30px;
     color:lightgray;
     background-color: grey;
     text-align: left;
-    margin-right: 25px;
 }
 
 .sidebar-navigation>li {
@@ -53,17 +51,18 @@ a:hover {
 }
 
 .content {
-    text-align: left;  
+    width: 75%;
+    text-align: left;
+    flex-basis: inherit;  
     overflow: scroll;
-    height: 100%;
 }
 
 .copyright {
     position: absolute;
     bottom: 0;
-    right: 0px;
-    text-align: center;
+    left: 0;
     width: 100%;
+    text-align: center;
 }
 
 .quote {

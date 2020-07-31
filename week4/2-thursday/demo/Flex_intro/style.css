@@ -1,0 +1,32 @@
+* {
+    font-family: sans-serif;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.blue-con {
+    flex-grow: 1;
+}
+
+.item {
+    width: 100px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
