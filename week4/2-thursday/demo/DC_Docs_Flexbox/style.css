@@ -15,7 +15,7 @@ body {
 
 .sidebar{
     position: relative;
-    width: 25%;
+    flex: 1;
     padding: 30px;
     color:lightgray;
     background-color: grey;
@@ -51,9 +51,9 @@ a:hover {
 }
 
 .content {
-    width: 75%;
+    flex: 1;
+    flex-grow: 4;
     text-align: left;
-    flex-basis: inherit;  
     overflow: scroll;
 }
 
