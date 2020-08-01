@@ -1,0 +1,15 @@
+.card-container {
+    display: flex;
+    /* flex-direction: row;   default so don't need*/ 
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start; /* crops direct children (like align self below*/
+    height: 100%
+}
+
+.card {
+    width: 200px; 
+    /*align-self: flex-start; /*this crops .card to height of image when width is 200px and aligns to top*/
+    margin: 20px; /*want to put white space border around all cards and then also in between, same size throughout*/
+}
+
