@@ -5,8 +5,8 @@
 
 .flex-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
     align-items: center;
     height: 100%;
 }
@@ -17,16 +17,19 @@
 
 .item {
     width: 100px;
+    height: 100px;
+    margin: 20px;
 }
 
 .red {
-    background-color: red;
+    background-color: lightcoral;
+    align-self: flex-end;
 }
 
 .green {
-    background-color: green;
+    background-color: lightgreen;
 }
 
 .blue {
-    background-color: blue;
+    background-color: lightblue;
 }
