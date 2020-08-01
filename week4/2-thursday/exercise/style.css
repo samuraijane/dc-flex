@@ -15,7 +15,7 @@
 
 
 .container-fluid {
-    background-color: gray;
+    background-color: darkgray;
 }
 
 .navbar-nav ul{
@@ -27,6 +27,7 @@
 
 .navbar-nav li {
     float: left;
+    margin: 10px;
 }
 
 .card-container {
@@ -39,5 +40,5 @@
 .card {
     width: 200px;
     margin: 10px;
-}
 
+}
