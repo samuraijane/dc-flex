@@ -1,0 +1,31 @@
+.navbar-brand img {
+    padding-right: 25px;
+}
+
+.nav-item a {
+    color: #FFFFFF;
+}
+
+.container-fluid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    border: none !important;
+    padding-top: 25px;
+    display: flex;
+}
+
+.card-img {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    max-width: 250px;
+}
+
+.card-title {
+    padding-top: 25px; 
+}
