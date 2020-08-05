@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     font-family:  'Oswald', sans-serif;
 }
@@ -7,4 +8,12 @@
 .cookieimg {
     height: 20%;
     width: 25%;
+=======
+.container {
+    text-align: center;
+>>>>>>> ab01343a6ea667401d6eaf83376161703e1faed4
+}
+
+.footer {
+    bottom: 0px;
 }
