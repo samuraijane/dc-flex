@@ -27,9 +27,11 @@
 }
 
 .jumbotron {
-    background-image: url("img/mower-1.jpg") ;
+    background-image: url("img/big-lawn.jpg") ;
     background-size: cover;
     background-repeat: no-repeat;
+    height: auto;
+
     
 }
 
@@ -55,7 +57,11 @@
     width: auto;
 }
 
-.jumbo-content{
-    color: white;
+.jumbo-content p{
+    color: #619e3f;
 
+}
+
+.display-4 {
+    color: black;
 }
