@@ -6,23 +6,37 @@
     </head>
 
     <body>
-        <form action="#">
-            <label for="firstName">
-                <input id="firstName" type="text" placeholder="your first name" required>
-            </label>
-            <label for="lastName">
-                <input id="lastName" type="text" placeholder="your last name" required>
-            </label>
-            <label for="email">
-                <input id="email" type="text" placeholder="your email address" required>
-            </label>
-            <label for="phoneNumber">
-                <input id="phoneNumber" type="number" placeholder="your phone number" required>
-            </label>
-            <label for="comments">
-                <input id="comments" type="text">
-            </label>
-            <button type="submit">Submit</button>
+        <form>
+            <div class="form-row">
+                <div class="col">
+                    <label for="firstName"> First Name
+                        <input id="firstName" class="form-control" type="text" placeholder="your first name" required>
+                    </label>
+                </div>
+                <div class="col">
+                    <label for="lastName"> Last Name
+                        <input id="lastName" class="form-control" type="text" placeholder="your last name" required>
+                    </label>
+                </div>
+                <div class="col">
+                    <label for="email"> Email
+                        <input id="email" class="form-control" type="email" placeholder="your email address" required>
+                    </label>
+                </div>
+                <div class="col">
+                    <label for="phoneNumber"> Phone Number
+                        <input id="phoneNumber" class="form-control" type="tel" placeholder="your phone number" required>
+                    </label>
+                </div>
+                <div class="col">
+                    <label for="comments"> Comments
+                        <input id="comments" class="form-control" type="text">
+                    </label>
+                </div>
+                <div class="col">
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
         </form>
     </body>
 
