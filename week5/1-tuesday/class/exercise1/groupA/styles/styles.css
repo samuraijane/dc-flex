@@ -3,11 +3,12 @@ body {
     font-family: 'Antic Slab', serif;    
 }
 
-h1 {
+.brandtitle {
     color: #ee6e62;
     text-shadow: 1px 1px black;
     font-style: oblique;
     font-size: 50px;
+    text-align: center;
 }
 
 p {
@@ -29,13 +30,17 @@ p {
 .container-md {
     
     justify-content: center;
-    width: 900px;
-    height: 900px;
+    width: 50%;
   }
 
 
   .card {
       width: 300px;
+      height: 500px;
+      margin: 20px;
+      background-color: lightpink;
+      border: solid white;
+      overflow: hidden;
   }
 
   .tiles {
@@ -45,17 +50,30 @@ p {
       justify-content: space-evenly;
       align-items: center;
       align-content: space-around;
+      margin-top: 20px;
+      margin-bottom: 20px;
   }
 
   .card-text {
-      
-      font-size: 14px;
+      font-size: 18px;
+      font-family: 'Antic Slab', serif; 
+      color: black;
+      text-shadow: 1px 1px white;   
   }
 
   .card-img-top {
+    border-bottom: solid white;
     object-fit: cover;
     object-position: top;
     width: 300px;
-    height: 175px;
-    overflow: hidden;    
+    height: 175px;   
+  }
+
+  .card-body {
+      margin: 0;
+      padding-top: 0;
+  }
+
+  .copyright {
+      text-align: center;
   }
