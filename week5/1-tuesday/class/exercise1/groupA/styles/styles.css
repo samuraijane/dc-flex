@@ -1,0 +1,28 @@
+body {
+    background-color: #d5e4e9;
+    font-family: 'Antic Slab', serif;
+    
+}
+
+h1 {
+    color: #ee6e62;
+    text-shadow: 1px 1px black;
+    font-style: oblique;
+    font-size: 50px;
+}
+
+p {
+    text-indent: 50px;
+    color: purple;
+    font-size: 18px;
+    text-shadow: 0px 1px purple;
+}
+
+.title {
+    font-family: 'Antic Slab', serif;
+    font-size: 40;
+    font-weight: bolder;
+    text-align: center;
+    margin: auto;
+    color: #ee6e62;
+}
