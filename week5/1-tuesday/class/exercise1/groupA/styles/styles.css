@@ -1,7 +1,6 @@
 body {
     background-color: #d5e4e9;
-    font-family: 'Antic Slab', serif;
-    
+    font-family: 'Antic Slab', serif;    
 }
 
 h1 {
@@ -26,3 +25,37 @@ p {
     margin: auto;
     color: #ee6e62;
 }
+
+.container-md {
+    
+    justify-content: center;
+    width: 900px;
+    height: 900px;
+  }
+
+
+  .card {
+      width: 300px;
+  }
+
+  .tiles {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+      align-content: space-around;
+  }
+
+  .card-text {
+      
+      font-size: 14px;
+  }
+
+  .card-img-top {
+    object-fit: cover;
+    object-position: top;
+    width: 300px;
+    height: 175px;
+    overflow: hidden;    
+  }
