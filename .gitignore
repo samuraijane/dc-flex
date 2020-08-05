@@ -1,0 +1,2 @@
+# These files and folders won't be committed to git
+.DS_Store
