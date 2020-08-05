@@ -4,18 +4,18 @@ body {
 }
 
 .brandtitle {
-    color: #ee6e62;
-    text-shadow: 1px 1px black;
+    color: lightpink;
+    text-shadow: 1px 1px purple;
     font-style: oblique;
     font-size: 50px;
     text-align: center;
 }
 
-p {
+.standardtext {
     text-indent: 50px;
     color: purple;
-    font-size: 18px;
-    text-shadow: 0px 1px purple;
+    font-size: 24px;
+    text-shadow: 0px 1px white;
 }
 
 .title {
@@ -57,8 +57,8 @@ p {
   .card-text {
       font-size: 18px;
       font-family: 'Antic Slab', serif; 
-      color: black;
-      text-shadow: 1px 1px white;   
+      color: purple;
+      text-shadow: 0px 1px white;   
   }
 
   .card-img-top {
@@ -76,4 +76,21 @@ p {
 
   .copyright {
       text-align: center;
+  }
+
+  .container {
+    background-color: #d5e4e9;
+    border: solid white;
+  }
+
+
+.signinbody {
+    background-color: lightpink;
+}
+
+.header {
+    background-color: #d5e4e9;
+    margin: 20px;
+    padding: 10px;
+    border: solid white;
   }
