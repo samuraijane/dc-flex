@@ -1,4 +1,16 @@
-.sidebar {
+.main {
     display: flex;
-    
+
+}
+
+.sidebar {
+    padding-right: 20px;
+    padding-top: 10px;
+    flex-grow: 1.5;
+    text-align: center;
+    list-style: none;
+    background-color: rgb(233,239,249);
+}
+.content {
+    flex-grow: 2.5;
 }
