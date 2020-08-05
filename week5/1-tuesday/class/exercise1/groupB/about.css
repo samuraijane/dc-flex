@@ -1,4 +1,8 @@
 body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10%;
+    margin-left: 10%;
+
     font-family: 'Oswald', sans-serif;
     margin: 0;
   }
@@ -16,6 +20,7 @@ body {
     width: 40%;
     margin-bottom: 16px;
     padding: 0 8px;
+    padding-left: 5%;
   }
   
   .id-card {
