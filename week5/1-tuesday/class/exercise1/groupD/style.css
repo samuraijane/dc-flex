@@ -4,6 +4,12 @@
     justify-content: space-evenly;
 }
 
+.product-title {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 .form-row {
     display: block;
 }
@@ -12,5 +18,13 @@
     display: flex;
     justify-content: center;
     flex-flow: column nowrap;
+}
+
+.carousel-item {
+    height: 800px;
+}
+
+.carousel-item img {
+    height: 900px;
 }
 
