@@ -1,0 +1,16 @@
+.container-fluid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.form-row {
+    display: block;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+
