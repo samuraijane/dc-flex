@@ -7,8 +7,20 @@ body {
     color: lightpink;
     text-shadow: 1px 1px purple;
     font-style: oblique;
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
+}
+
+.titlebackground {
+    background-color: palegoldenrod;
+    
+}
+
+.navbar-brand {
+    color: lightpink !important;
+    text-shadow: 1px 1px purple;
+    font-style: oblique;
+    font-size: 25px;
 }
 
 .standardtext {
@@ -103,7 +115,7 @@ body {
 
   .nav-link {
       text-decoration: none;
-      color: white;
+      color: white !important;
       font-size: 22px;
       border: double black 4px;
       background-color: purple;
@@ -130,4 +142,9 @@ body {
       text-align: center;
       font-weight: 800;
       text-shadow: black 1px 1px;
+  }
+
+  .navbar {
+      background-color: palegoldenrod !important;
+      border: double black 4px;
   }
