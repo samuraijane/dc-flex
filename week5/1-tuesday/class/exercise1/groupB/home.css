@@ -44,8 +44,13 @@ html:before {
 }
 
 .container {
+    display: inline;
     text-align: center;
     margin: 5%;
+}
+
+.img-thumbnail {
+    width: 400px;
 }
 
 /***** FOOTER SECTION *****/
