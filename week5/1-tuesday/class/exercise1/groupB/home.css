@@ -2,29 +2,6 @@
     font-family:  'Oswald', sans-serif;
 }
 
-.cookieimg {
-    height: 20%;
-    width: 25%;
-}
-.container {
-    text-align: center;
-}
-
-.card-img-overlay {
-    text-align: center;
-    top: 20%;
-}
-
-.card-img-overlay .card-title {
-    font-size: 25pt;
-    justify-content: center;
-    
-}
-
-.card-img-overlay .card-text {
-    font-size: 15pt;
-    
-}
 
 html:before {
     content: "";
@@ -38,7 +15,65 @@ html:before {
     z-index: -1;   
 }
 
-.fixed-bottom {
+.container {
+    text-align: center;
+}
+
+.card-img-overlay {
+    text-align: center;
+    top: 20%;
+}
+
+.card-img-overlay .card-title {
+    font-size: 30pt;
+    margin-bottom: 5%;
+    
+}
+
+.card-img-overlay .card-text {
+    font-size: 15pt;
+    justify-content: center;
+}
+
+
+.homesection {
+    margin-top: 10%;
+    padding: 10%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color:hsl(210, 15%, 60%, .7);
+    color: white;
+
+}
+
+.row {
+    margin-top: 10%;
+}
+
+/***** FOOTER SECTION *****/
+
+.bottom {
     bottom: 0px;
-    font-size: x-small;
+    font-size: small;
+}
+
+.socialbuttons, ul {
+    margin: 10%;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.socialbuttons, li {
+    display: inline-block;
+
+}
+
+.socialbuttons:hover {
+    transform: scale(1.5);
+}
+
+.copywright {
+    margin: 10%;
 }
