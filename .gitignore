@@ -1,2 +1,13 @@
 # These files and folders won't be committed to git
 .DS_Store
+node_modules
+
+# Instructor Files
+z_template
+week5/1-tuesday/class/exercise1/scripts
+week5/1-tuesday/class/exercise1/public
+week5/1-tuesday/class/exercise1/styles
+week5/1-tuesday/class/exercise1/views
+week5/1-tuesday/class/exercise1/package-lock.json
+week5/1-tuesday/class/exercise1/package.json
+week5/1-tuesday/class/exercise1/server.js

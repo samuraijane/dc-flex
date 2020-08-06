@@ -7,4 +7,6 @@ body {
 }
 .header {
   background-color: #d5e4e9;
+  margin: 20px;
+  padding: 10px;
 }
