@@ -10,8 +10,20 @@
     text-align: center;
 }
 
-.footer {
-    bottom: 0px;
+.card-img-overlay {
+    text-align: center;
+    top: 20%;
+}
+
+.card-img-overlay .card-title {
+    font-size: 25pt;
+    justify-content: center;
+    
+}
+
+.card-img-overlay .card-text {
+    font-size: 15pt;
+    
 }
 
 html:before {
@@ -24,4 +36,9 @@ html:before {
     right: 0;
     position: fixed;
     z-index: -1;   
+}
+
+.fixed-bottom {
+    bottom: 0px;
+    font-size: x-small;
 }
