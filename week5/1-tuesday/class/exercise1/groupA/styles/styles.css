@@ -97,13 +97,16 @@ body {
   
   .text-center {
       background-image: url(../images/coverphoto_yarn.jpg);
+      background-position: center;
+      background-size: cover;
   }
 
   .nav-link {
       text-decoration: none;
       color: white;
       font-size: 22px;
-      border: dashed black 4px;
+      border: double black 4px;
+      background-color: purple;
   }
 
   .logo img {
@@ -111,15 +114,20 @@ body {
   }
 
   .lead {
-      color: white;
+      color: burlywood;
+      text-shadow: black 1px 1px;
+      font-weight: bold;
   }
 
   .cover-heading {
       color: white;
+      text-shadow: black 2px 2px;
   }
 
   .inner {
       color: white;
       margin: 10px;
       text-align: center;
+      font-weight: 800;
+      text-shadow: black 1px 1px;
   }
