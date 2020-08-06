@@ -35,8 +35,8 @@ body {
 
 
   .card {
-      width: 300px;
-      height: 500px;
+      width: 400px;
+      height: 450px;
       margin: 20px;
       background-color: lightpink;
       border: solid white;
@@ -65,8 +65,8 @@ body {
     border-bottom: solid white;
     object-fit: cover;
     object-position: top;
-    width: 300px;
-    height: 175px;   
+    width: 400px;
+    height: 225px;   
   }
 
   .card-body {
@@ -93,4 +93,33 @@ body {
     margin: 20px;
     padding: 10px;
     border: solid white;
+  }
+  
+  .text-center {
+      background-image: url(../images/coverphoto_yarn.jpg);
+  }
+
+  .nav-link {
+      text-decoration: none;
+      color: white;
+      font-size: 22px;
+      border: dashed black 4px;
+  }
+
+  .logo img {
+      width: 30%;
+  }
+
+  .lead {
+      color: white;
+  }
+
+  .cover-heading {
+      color: white;
+  }
+
+  .inner {
+      color: white;
+      margin: 10px;
+      text-align: center;
   }
