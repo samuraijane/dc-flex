@@ -1,11 +1,16 @@
 .container-fluid {
     display: flex;
-    flex-direction: center;
+    /* flex-direction: center; */
     justify-content: space-evenly;
 }
 
-h1 {
+.about-heading {
     text-align: center;
+    padding: 25px;
+}
+
+.card {
+    margin: 20px;
 }
 
 .product-title {
@@ -14,8 +19,18 @@ h1 {
     padding-bottom: 25px;
 }
 
+.contact-title {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 .form-row {
     display: block;
+    width: 500px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .col {
