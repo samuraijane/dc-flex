@@ -30,7 +30,7 @@
     background-image: url("img/big-lawn.jpg") ;
     background-size: cover;
     background-repeat: no-repeat;
-    height: auto;
+    height: 30%;
 
     
 }
@@ -58,7 +58,7 @@
 }
 
 .jumbo-content p{
-    color: #619e3f;
+    color: black;
 
 }
 
