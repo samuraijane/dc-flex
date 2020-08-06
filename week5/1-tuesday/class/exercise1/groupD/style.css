@@ -39,6 +39,16 @@
     flex-flow: column nowrap;
 }
 
+.carousel-item h5 {
+    font-size: 52px;
+    font-weight: bold;
+    color: #10a0a1;
+}
+
+.carousel-item p {
+    font-size: 20px;
+}
+
 .carousel-item img {
     height: 900px;
 }
@@ -67,7 +77,7 @@
 }
 
 .footer-links a:hover {
-    color: blue;
+    color: grey;
 }
 
 .footer-social {
@@ -77,16 +87,18 @@
 
 .footer-social li {
     display: inline-block;
-    padding: 10px;
+    padding: 20px;
+    padding-left: 0;
 }
 
 .footer-social a {
     text-decoration: none;
+    font-size: 20px;
     color: black;
 }
 
 .footer-social a:hover {
-    color: blue;
+    color: grey;
 }
 
 .footer-copyright {
