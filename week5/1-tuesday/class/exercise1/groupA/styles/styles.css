@@ -143,12 +143,9 @@ body {
 
   .navbar {
       background-color: palegoldenrod !important;
-      border: double black 4px;
-  }
-  background-color: #d5e4e9;
-  margin: 20px;
-  padding: 10px;
-  border: solid white;
+      margin: 20px;
+      padding: 10px;
+      border: double white 4px;
 }
 
 .text-center {
