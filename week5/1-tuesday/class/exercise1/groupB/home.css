@@ -64,6 +64,7 @@ html:before {
     margin: 10%;
     text-decoration: none;
     list-style: none;
+    padding-inline-start: 0%;
 
 }
 
