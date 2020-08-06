@@ -12,16 +12,13 @@ html:before {
     bottom: 0;
     right: 0;
     position: fixed;
-    z-index: -1;   
-}
-
-.container {
-    text-align: center;
+    z-index: -1;  
 }
 
 .card-img-overlay {
     text-align: center;
     top: 20%;
+    
 }
 
 .card-img-overlay .card-title {
@@ -37,18 +34,18 @@ html:before {
 
 
 .homesection {
-    margin-top: 10%;
     padding: 10%;
     width: 100%;
     height: 100%;
     text-align: center;
     background-color:hsl(210, 15%, 60%, .7);
     color: white;
-
+    margin-top: 5%;
 }
 
-.row {
-    margin-top: 10%;
+.container {
+    text-align: center;
+    margin: 5%;
 }
 
 /***** FOOTER SECTION *****/
@@ -58,15 +55,16 @@ html:before {
     font-size: small;
 }
 
-.socialbuttons, ul {
+.socialbuttons> ul {
     margin: 10%;
     text-decoration: none;
     list-style: none;
 
 }
 
-.socialbuttons, li {
+.socialbuttons> li {
     display: inline-block;
+    align
 
 }
 
