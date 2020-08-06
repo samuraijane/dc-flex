@@ -7,9 +7,13 @@ form {
 }
 
 html:before {
-    background: url("images/chocolate-chips-cookie-sweets-pastry-brown-royalty-free-thumbnail.jpg") repeat center fixed;
+    content: "";
+    background-image: url("images/chocolate-chips-cookie-sweets-pastry-brown-royalty-free-thumbnail.jpg");
     opacity: 0.25;
-    background-size: cover;
-    bottom: auto;
-    top: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;   
 }
