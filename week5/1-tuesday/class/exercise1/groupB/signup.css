@@ -6,8 +6,10 @@ form {
     font-family:  'Oswald', sans-serif;
 }
 
-div:before {
-    background: url("images/chocolate-chips-cookie-sweets-pastry-brown-royalty-free-thumbnail.jpg");
+html:before {
+    background: url("images/chocolate-chips-cookie-sweets-pastry-brown-royalty-free-thumbnail.jpg") repeat center fixed;
     opacity: 0.25;
     background-size: cover;
+    bottom: auto;
+    top: auto;
 }
