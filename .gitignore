@@ -1,3 +1,6 @@
 # These files and folders won't be committed to git
 .DS_Store
-week1/2-thursday/homework.js
+node_modules
+
+# Instructor Files
+admin
