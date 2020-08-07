@@ -3,18 +3,15 @@ body {
   font-family: "Antic Slab", serif;
 }
 
-.brandtitle {
+.grandma {
   color: lightpink;
   text-shadow: 1px 1px purple;
   font-style: oblique;
   font-size: 50px;
   text-align: center;
+  background-color: palegoldenrod;
 }
 
-.titlebackground {
-    background-color: palegoldenrod;
-    
-}
 
 .navbar-brand {
     color: lightpink !important;
