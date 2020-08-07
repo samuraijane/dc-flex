@@ -2,11 +2,9 @@
 .bg {
 
   background-image: url("../images/Tiled_block_background.png");
-  background-color: brown;
-  height: 500px;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  width: 160px;
+  height: 160px;
 
 }
