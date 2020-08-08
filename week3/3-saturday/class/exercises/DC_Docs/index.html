@@ -1,59 +1,116 @@
 <html>
     <head>
-        <title>DC DOCS</title>
+        <link href="styles/styles.css" rel="stylesheet">
+        <title>DC_Docs</title>
     </head>
-    <link href="docs.css" rel="stylesheet">
-    <body class="allstuff">
-        <div class="sidebar">
-            <ul class="search-bar">
-                <li><h3>DigitalCrafts Docs</h3></li>
-                <li>
-                    <form action="https://google.com/search" target="_blank" type="GET">
-                        <input class="sbar" type="search" placeholder="search" name="q">
-                        <input type="submit" value="Go">
-                    </form>
-                </li>
-                <li><a href="#intro"><h3>Introduction</h3></a></li>
-                <li><a href="#moti"><h3>Motivation</h3></a></li>
-                <li><a href="#campus"><h3>Campus Info</h3></a></li>
-                <li><h3>Job Searches</h3></li>
-                <li><h3>FAQ</h3></li>
-            </ul>
-            <br><br><br><br><br><br><br><br><br><br><br><br>
-            <br><br><br><br><br><br><br><br><br><br><br>
-            <footer>2017 DigitalCrafts, Inc.</footer>
-        </div>
-        <div class="content">
-            <p class="welcome">Welcome to</p>
-            <h1><img src="img/logo.png">
-                DigitalCrafts Docs</h1>
-            <br>
-            <h4 name="intro">INTRODUCTION<br></h4>
-            <p>DigitalCrafts docs is your go to place for anything related to DigitalCrafts:
-               Lectures, campus info, job search tips, personal development, bios, etc.
-               You can scroll down to read all of this website, click on the navigation
-               buttons on the left, or search for a specific topic using the search topic using
-               the search bar on the left. This website is a work in progress, so don't 
-               be surprised if all the text below this paragraph is gibberish. 
-            </p>
-            <br>
-            <div>
-                <p class="quote">" We should give the students some bogus assignmment so that we can leave
-                and go play laser tag down the street...wait, are you writing this down?
-                 Don't write this down!    "<br>                                -Adam Szaruga</p>
+    <body>
+        <header>
+            <div class="leftNavbar">
+                <h3>DigitalCrafts Docs</h3>
+                <br />
+
+                <input type="text" placeholder="search">
+                <br />
+                <br />
+
+                <div class="navItems">
+                    <a href="#introduction">Introduction</a>
+                    <a href="#motivation">Motivation</a>
+                    <a href="#campusInfo">Campus Info</a>
+                    <a href="#jobSearches">Job Searches</a>
+                    <a href="#faq">FAQ</a>
+                </div>
+
+                <h6 class="copyright">&copy; 2017 DigitalCrafts, Inc.</h6>
+
             </div>
-            <br>
-            <h4 name="moti">MOTIVATION<br></h4>
-            <p>Bacon ipsum dolor amet ground round bacon corned beef meatball alcatra beef tri-tip strip steak turducken. Flank ground round ribeye, beef tail swine fatback picanha venison kevin spare ribs. Kevin pork loin chuck rump bresaola short ribs pork belly ham hock t-bone picanha shoulder turkey tenderloin strip steak. Boudin strip steak andouille, pork loin turducken shank doner pig spare ribs pastrami short ribs ball tip. Kielbasa porchetta picanha ground round sausage shankle.
-            </p>
-            <p> Rump pork cow shank turkey buffalo. Ground round prosciutto chicken pastrami, sirloin short ribs doner alcatra chuck cow pork chop shoulder. Tail tenderloin alcatra chicken, ham strip steak leberkas. Ribeye leberkas kevin bresaola short ribs, alcatra strip steak biltong frankfurter pastrami brisket venison salami beef sirloin.
-            </p>
-            <br>
-            <h4 name="campus">CAMPUS INFO<br></h4>
-            <p>Bacon ipsum dolor amet picanha corned beef boudin, tongue filet mignon ham shoulder buffalo. Boudin strip steak cow pastrami, chislic pork loin ham hock ribeye tongue. Fatback drumstick shank corned beef. Tongue cow flank short ribs, doner rump sausage corned beef kevin tri-tip frankfurter venison ham bresaola. Cow corned beef brisket, spare ribs pancetta rump venison buffalo. Fatback tri-tip spare ribs, tongue porchetta tenderloin bresaola shankle pork chop beef ribs.
-            </p>
-            
-        </div>
-        <script src="doc.js"></script>
+
+        </header>
+
+        <main>
+            <div class="headerOfMain">
+                Welcome to
+                <br />
+                <img src="img/logo.png" alt="DigitalCrafts logo">
+                <h1 class="docsTitle">DigitalCrafts Docs</h1>
+            </div>
+
+            <div class="introduction" id="introduction">
+                <h5>INTRODUCTION</h5>
+                <p>
+                    Digital Crafts docs is your go to place for anything related to DigitalCrafts: Lectures,
+                    campus info, job search tips, personal development, bios, rtc. You can scroll down to read
+                    all of this website, click on the navigation buttons on the left, or search for a specific topic using 
+                    the search bar on the left. This website is a work in progress, so don't be suprised if all the text
+                    below this paragraph is gibberish.
+                </p>
+                <div class="callOut">
+                    <p>
+                        <div class="bigLeftQuotes">&ldquo;</div> We should give the students some bogus assignment so that we can leave and go play 
+                        laser tag down the street... wait, are you writing this down? Don't write this down <div class="bigRightQuotes">&rdquo;</div>
+                        <br />
+                        - Adam Szargua
+                    </p>
+                </div>
+            </div>
+
+            <div class="motivation" id="motivation">
+                <h5>MOTIVATION</h5>
+                <p>
+                    Bacon ipsum dolor amet tenderloin lorem nulla salami, cupim proident tongue aliquip bresaola meatball. 
+                    Shank pariatur capicola, lorem labore prosciutto jerky in short loin enim tongue pastrami spare ribs. 
+                    Eiusmod fugiat doner brisket, sed esse sirloin ea minim ut fatback occaecat ex pig. Porchetta aliqua ground round 
+                    velit reprehenderit pig veniam in short loin proident nisi incididunt minim meatball aute. Andouille capicola ad consectetur.
+
+                    <br />
+                    <br />
+
+                    Dolore pork loin buffalo tongue qui pork ullamco, ut cow aliquip drumstick in est chuck. Pork nisi chuck, 
+                    qui drumstick dolore occaecat incididunt. Ham hock nulla turducken andouille pariatur sed, in cupim pancetta. 
+                    Cillum pig brisket ut, rump ex shank in alcatra shankle. Est in turducken filet mignon chuck dolore. 
+                    Shankle tri-tip nulla prosciutto magna, pork loin drumstick spare ribs burgdoggen venison turkey.
+
+                </p>
+            </div>
+
+            <div class="campusInfo" id="campusInfo">
+                <h5>CAMPUS INFO</h5>
+                <p>
+                    Shank in laborum ribeye ball tip quis. Deserunt buffalo labore pastrami qui jerky occaecat. 
+                    Consequat meatball lorem nisi do boudin. Consequat kielbasa jowl incididunt in shoulder picanha excepteur short loin pariatur id, 
+                    esse dolore sunt. In sunt andouille bresaola dolor ham, ullamco eu chicken occaecat excepteur drumstick ground round dolore nostrud.
+                    
+                </p>
+            </div>
+
+            <div class="jobSearches" id="jobSearches">
+                <h5>JOB SEARCHES</h5>
+                <p>
+                    Bacon ipsum dolor amet chuck capicola anim non. Dolor pork loin bresaola in frankfurter. 
+                    Esse velit cupim bresaola in ham hock turducken short ribs jowl adipisicing shank pastrami. 
+                    Shoulder ex venison eiusmod sint incididunt tongue frankfurter.
+                    
+                </p>
+            </div>
+
+            <div class="faq" id="faq">
+                <h5>FAQ</h5>
+                <p>
+                    Bacon ipsum dolor amet t-bone tempor short ribs incididunt exercitation, boudin quis anim proident 
+                    excepteur jerky eu alcatra turkey. Leberkas tongue tri-tip, deserunt aliqua eiusmod dolore voluptate 
+                    strip steak ad bacon shoulder ribeye. Duis non ullamco, jerky in culpa anim filet mignon ribeye laboris. 
+                    Jowl exercitation alcatra bresaola voluptate, capicola chislic veniam qui tail anim cillum. Doner enim adipisicing 
+                    tongue drumstick deserunt qui est shankle ad kielbasa picanha fugiat. Sirloin venison pork loin labore turkey qui 
+                    beef ribs ut esse prosciutto excepteur pork chop aliqua. Brisket alcatra porchetta non, enim sed ullamco cillum shank jowl 
+                    ham id excepteur salami aliquip.
+                </p>
+            </div>
+
+
+        </main>
+
+        <footer>
+
+        </footer>
     </body>
 </html>
