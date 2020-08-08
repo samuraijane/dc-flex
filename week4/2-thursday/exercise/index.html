@@ -1,138 +1,161 @@
+<!DOCTYPE html>
+
 <html>
-    <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles/styles.css">
-        <title>DCinterest</title>
-    </head>
+    
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
 
-    <body>
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-        <!--NAV BAR-->
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-        <div class="nav-container">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">
-                    <img src="img/logo.png" width="50" height="30" class="d-inline-block align-top" alt="DigitalCrafts logo">
-                    DCinterest
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#">Profile</a>
-                        <a class="nav-item nav-link" href="#">FAQ</a>
-                    </div>
-                </div>
-            </nav>
-        </div>
+    <title>DCinterest</title>
 
-        <!--CARDS-->
+</head>
 
-        <div class="card-container">
-            <div class="card bg-dark text-white">
-                <img class="card-img" src="img/cozy.jpg" alt="Image of a cozy living room">
-                <div class="card-img-overlay">
-                    <h5 class="card-title">Cozy Space</h5>
-                </div>
-            </div>
+<body>
 
-            <div class="card bg-dark text-white">
-                <img class="card-img" src="img/creek.jpg" alt="Image of a creek">
-                <div class="card-img-overlay">
-                    <h5 class="card-title">Cool Creek</h5>
-                </div>
-            </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href=""><img src="/img/logo.png" alt="logo"/> DCinterest</a>
 
-            <div class="card bg-dark text-white">
-                <img class="card-img" src="img/cozy.jpg" alt="Image of a cozy living room">
-                <div class="card-img-overlay">
-                    <h5 class="card-title">Cozy Space</h5>
-                </div>
-            </div>
 
-            <div class="card bg-dark text-white">
-                <img class="card-img" src="img/studio.jpg" alt="Image of a recording studio overlooking city skyline">
-                <div class="card-img-overlay">
-                    <h5 class="card-title">Studio</h5>
-                </div>
-            </div>
+    <div class="navbar-nav" id="navbarSupportedContent">
+      <ul>
+        <li>
+          <a class="nav-link" href="">Home</a>
+        </li>
 
-            <div class="card bg-dark text-white">
-                <img class="card-img" src="img/cozy.jpg" alt="Image of a cozy living room">
-                <div class="card-img-overlay">
-                    <h5 class="card-title">Cozy Space</h5>
-                </div>
-            </div>
+        <li>
+          <a class="nav-link" href="">Profile</a>
+        </li>
 
-            <div class="card bg-dark text-white">
-                <img class="card-img" src="img/creek.jpg" alt="Image of a creek">
-                <div class="card-img-overlay">
-                    <h5 class="card-title">Cool Creek</h5>
-                </div>
-            </div>
+        <li>
+          <a class="nav-link" href="">FAQ</a>
+        </li>
+        
+      </ul>
 
-            <div class="card bg-dark text-white">
-                <img class="card-img" src="img/studio.jpg" alt="Image of a recording studio overlooking city skyline">
-                <div class="card-img-overlay">
-                    <h5 class="card-title">Studio</h5>
-                </div>
-            </div>
+    </div>  
 
-            <div class="card bg-dark text-white">
-                <img class="card-img" src="img/studio.jpg" alt="Image of a recording studio overlooking city skyline">
-                <div class="card-img-overlay">
-                    <h5 class="card-title">Studio</h5>
-                </div>
-            </div>
+  </nav> 
 
-            <div class="card bg-dark text-white">
-                <img class="card-img" src="img/cozy.jpg" alt="Image of a cozy living room">
-                <div class="card-img-overlay">
-                    <h5 class="card-title">Cozy Space</h5>
-                </div>
-            </div>
+<div class="card-container">
+  <div class="card bg-white text-white border-0">
+    <img class="card-img" src="img/cozy.jpg" alt="Cozy">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Cozy space</h5>
+    </div>
+  </div>
 
-            <div class="card bg-dark text-white">
-                <img class="card-img" src="img/creek.jpg" alt="Image of a creek">
-                <div class="card-img-overlay">
-                    <h5 class="card-title">Cool Creek</h5>
-                </div>
-            </div>
+  <div class="card bg-white text-white border-0">
+    <img class="card-img" src="img/creek.jpg" alt="Creek">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Cool cottage</h5>
+    </div>
+  </div>
 
-            <div class="card bg-dark text-white">
-                <img class="card-img" src="img/studio.jpg" alt="Image of a recording studio overlooking city skyline">
-                <div class="card-img-overlay">
-                    <h5 class="card-title">Studio</h5>
-                </div>
-            </div>
 
-            <div class="card bg-dark text-white">
-                <img class="card-img" src="img/studio.jpg" alt="Image of a recording studio overlooking city skyline">
-                <div class="card-img-overlay">
-                    <h5 class="card-title">Studio</h5>
-                </div>
-            </div>
+  <div class="card bg-white text-white border-0">
+    <img class="card-img" src="img/cozy.jpg" alt="Cozy">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Cozy space</h5>
+    </div>
+  </div>
 
-            <div class="card bg-dark text-white">
-                <img class="card-img" src="img/cozy.jpg" alt="Image of a cozy living room">
-                <div class="card-img-overlay">
-                    <h5 class="card-title">Cozy Space</h5>
-                </div>
-            </div>
 
-            <div class="card bg-dark text-white">
-                <img class="card-img" src="img/creek.jpg" alt="Image of a creek">
-                <div class="card-img-overlay">
-                    <h5 class="card-title">Cool Creek</h5>
-                </div>
-            </div>
+  <div class="card bg-white text-white border-0">
+    <img class="card-img" src="img/studio.jpg" alt="Studio">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Studio</h5>
+    </div>
+  </div>
+    
 
-        </div>
+  <div class="card bg-white text-white border-0">
+    <img class="card-img" src="img/cozy.jpg" alt="Cozy">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Cozy space</h5>
+    </div>
+  </div>
 
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    </body>
+  <div class="card bg-white text-white border-0">
+    <img class="card-img" src="img/creek.jpg" alt="Creek">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Cool cottage</h5>
+    </div>
+  </div>
+
+  <div class="card bg-white text-white border-0">
+    <img class="card-img" src="img/studio.jpg" alt="Studio">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Studio</h5>
+    </div>
+  </div>
+
+  <div class="card bg-white text-white border-0">
+    <img class="card-img" src="img/studio.jpg" alt="Studio">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Studio</h5>
+    </div>
+  </div>
+    
+  <div class="card bg-white text-white border-0">
+    <img class="card-img" src="img/cozy.jpg" alt="Cozy">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Cozy space</h5>
+    </div>
+  </div>
+
+  <div class="card bg-white text-white border-0">
+    <img class="card-img" src="img/creek.jpg" alt="Creek">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Cool cottage</h5>
+    </div>
+  </div>
+
+
+  <div class="card bg-white text-white border-0">
+    <img class="card-img" src="img/studio.jpg" alt="Studio">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Studio</h5>
+    </div>
+  </div>
+  
+
+  <div class="card bg-white text-white border-0">
+    <img class="card-img" src="img/studio.jpg" alt="Studio">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Studio</h5>
+    </div>
+  </div>  
+
+  <div class="card bg-white text-white border-0">
+    <img class="card-img" src="img/cozy.jpg" alt="Cozy">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Cozy space</h5>
+    </div>
+  </div>
+
+  <div class="card bg-white text-white border-0">
+    <img class="card-img" src="img/creek.jpg" alt="Creek">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Cool cottage</h5>
+    </div>
+  </div>
+
+</div>
+
+</body>
+
+
 </html>
