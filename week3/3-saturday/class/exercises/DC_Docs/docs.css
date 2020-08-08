@@ -1,0 +1,66 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.allstuff {
+    display: flex;  
+    flex-flow: row wrap;
+    text-align: center;
+  }
+  
+.sidebar{
+    height: 100vw; 
+    width: 300px;
+    position: fixed;
+    color:lightgray;
+    background-color: grey;
+    text-align: left;
+    
+}
+
+footer{
+    text-align: center;
+}
+.search-bar>li {
+    display: inline;
+}
+.sbar {
+    background-color: grey;
+}
+
+::placeholder {
+    color: lightgray;
+}
+a:link {
+    color: lightgrey;
+    text-decoration: none;
+}
+a:visited {
+    color: lightgrey;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.search {
+    float: left;
+}
+
+.content {
+    margin-left: 325px;
+    text-align: left;  
+}
+
+.quote {
+    display: inline-flex;
+    color:#9c9895;
+    background-color:	#e6e3de;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    border-width: 50px;
+
+}
+

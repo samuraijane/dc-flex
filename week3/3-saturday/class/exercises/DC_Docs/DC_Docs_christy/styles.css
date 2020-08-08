@@ -1,0 +1,69 @@
+body, html {
+    font-family: "Roboto";
+    text-align: left;
+    margin-left: 12%;
+    margin-right: 5%;
+}
+
+.header #welcome {
+    color: gray;
+    font-weight: 500;
+}
+
+.header #DC_header {
+    font-weight: 500;
+}
+
+.sidenav #DC_side {
+    font-weight: 500;
+}
+
+.sidenav {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    background-color: rgb(90, 95, 95);
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    line-height: 40px;
+    color: white;    
+    text-align: center;
+    font-size: large;
+
+}
+
+.sidenav li {
+    list-style-type: none;
+    text-align: left;
+
+}
+
+#searchbar {
+    color: white;
+    border-color: darkgray;
+    background-color: rgb(90, 95, 95);
+    padding: .5% 10%;
+    border-style: solid;
+    margin-bottom: 20px;
+    
+}
+
+
+a {
+    color: lightgray; 
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    background-color: white;
+}
+
+.navfooter {
+    text-align: center;
+    font-size: 10pt;
+    position: fixed;
+    bottom: 0px;
+    width: 15%;
+}
