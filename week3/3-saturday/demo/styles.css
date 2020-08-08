@@ -1,0 +1,27 @@
+* {
+    font-family: Helvetica, San-Serif; 
+}
+
+.navbar {
+    background-color: rgba(22, 167, 162, 1.0);
+    color: white;
+}
+
+body, h1 {
+    margin: 0;
+}
+
+.menu-buttons>li {
+    display: inline-block;
+    width: 120px;
+}
+
+.menu-buttons a{
+    text-decoration: none;
+}
+
+.content {
+    width: 800px;
+    margin-left: auto;
+    border: 10px solid black;
+}

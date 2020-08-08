@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+h1 {
+    font-weight: normal;
+}
+
+.navbar-container {
+    border: solid black;
+    padding: 20px 0 20px 0;
+    text-align: left;
+    margin: 20px 300px; 
+    
+}
+
+.navbar-container h1 {
+    width: 350px
+}
+
+.navbar-container a {
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+}
+
+.header-container {
+    text-align: center;
+    border: solid black;
+    margin-bottom: 50px;
+}
+
+.middle-container {
+    text-align: justify;
+    margin: 20px 300px 0 300px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.bottom-container {
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 300px;
+    text-align: left;
+    padding-top: 0px;
+}
+
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+* {
+    background-color: #f4f4f4;
+}
+
+div.navbar {
+    position: relative;
+}
+
+div.logoHeader {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 32px;
+    color: #323232;
+    position: absolute;
+    left: 0px;
+}
+
+ul#menu li {
+    display:inline;
+    float: right;
+    margin: 15px;
+    align-items: baseline;
+}
+
+img {
+    vertical-align: baseline;
+  }
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #323232;
+}
+
+div {
+    margin: 25px;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #999999;
+}
+
+.blogpost {
+    width: 900px;
+    margin: auto;
+}
+
+.blogtitle {
+    text-align: center;
+    margin-top: 50px;
+    clear: both;
+}
+
+a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #dbf3fa;
+    width: 175px;
+    padding: 10px;
+    background-color: #4b98c5;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b9b9b9;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.blogpost>a {
+    text-align: center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    color: #434343;
+    line-height: 1.5em;
+}
+
+.footer {
+    width: 900px;
+}
+
+ul#bottommenu li {
+    display:inline;
+    float: left;
+    margin: 15px;
+}
+
+.copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #8f908f;
+    text-align: center;
+}
