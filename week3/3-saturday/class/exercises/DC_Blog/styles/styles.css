@@ -1,78 +1,115 @@
-html {
-    background-color: rgba(244, 244, 244, 1);
+.navbar, .navbot, .article_title, .titledate {
+    font-family: 'Roboto', sans-serif;
 }
 
-header, footer, .titleSection {
-    font-family: Arial, Helvetica, sans-serif
+.navbar {
+    margin: 5 100 0 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.dclogo {
-    width: 50px;
-    padding: 5px 5px 0 0;
+.DC {
+    display: flex;
+    align-items: center;
+}
+.nav_buttons>li {
+    display: inline-block;    
+    margin: 0 20 0 0;
+    font-size: 16;    
+    font-weight: 800;
 }
 
-.blogName {
+.nav_buttons {
+    margin: 5 0 0 0;
+}
+
+.floatbar{
+    float:right;
+    padding: 0 0 0 0;
+}
+
+.nav_buttons a {
+    text-decoration: none;
+    color: slategray;
+}
+.navbar h1{
     display: inline;
-    font-size: 25px;
-    font-weight: normal;
-    color: rgba(51, 51, 51, 1);
-    
 }
 
-ul.headerNavbar {
-    color: rgba(100, 100, 100, 1);
-    float: right;
-}
-
-ul.headerNavbar>li {
-    text-align: right;
-    display: inline-block;
-    padding: 0px 5px;
-}
-
-.titleSection {
+.blogbutton {
     text-align: center;
-}
-
-.postTitle {
-    font-weight: normal;
-    color: rgba(51, 51, 51, 1);
-}
-
-.postDate {
-    font-size: 10px;
-    color: rgba(186, 186, 186, 1);
-    margin: 15px 0 5px 0;
+    margin: 0 0 25 0;
+    padding: 5 0 5 0;
 }
 
 button {
-    display: inline-block;
-    color: white;
-    font-size: 10px; 
-    background-color: rgba(78, 154, 195, 1);
-    border: 0px;
-    border-radius: 1px;
-    padding: 5px 15px;
+    background-color: #4a99c4;
+    font-weight: 600;
+    color:white;
+    padding: 5 20 5 20;
+    border-style: none;
+    font-size: 10;
 }
 
-.postNarrative {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: left;
-    color: rgba(69, 69, 69, 1);
-    
-}
-ul.footerNavbar {
-    color: rgba(146, 146, 146, 1);
-    padding: 0;
-}
-
-ul.footerNavbar>li {
+.navbot li{
     display: inline;
-    padding: 5px 5px;
+    float:left;
+    margin: 0 0 0 25;
+    padding: 0;
+
 }
 
-h6 {
-    font-size: 10px;
+.navbot {
+    margin: 0 0 0 105;
+}
+
+.foot_buttons a{
+    text-decoration: none;
+    color: silver;
+    font-size: 14;
+    font-weight: 600;
+}
+
+.bodytext {
+    margin: 0 170 50 170;
+    font-family: "Dosis", sans-serif;
+    font-size: 14;
+    width: 600;
+}
+
+hr {
+    margin: 0 170 0 65;
+    background-color: silver;
+    height: 2px;
+    border: none;
+}
+
+.article_title{
     text-align: center;
-    color: rgba(128, 128, 128, 1);
+    padding: 0;
+    margin: 0;
+    line-height: 10px;
+}
+
+.titledate {
+    text-align: center;
+    color: silver;
+    font-size: 10;
+    font-weight: 800;
+}
+.titlestart {
+    margin: 50 0 0 0;
+}
+
+.footer {
+    margin: 60 0 20 0;
+    text-align:center;
+    font-size: 12;
+    color: gray;
+    font-weight: 800;
+}
+
+body {
+    margin: 0 0 0 0;
 }
