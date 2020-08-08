@@ -1,0 +1,78 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    height: 100%;
+}
+
+.sidebar{
+    box-sizing: border-box;
+    position: relative;
+    width: 250px;
+    height: 100%;
+    float: left;
+    padding: 30px;
+    color:lightgray;
+    background-color: grey;
+    text-align: left;
+    margin-right: 25px;
+}
+
+.sidebar-navigation>li {
+    display: inline;
+}
+
+.sidebar-navigation {
+    padding: 0;
+}
+
+::placeholder {
+    color: lightgray;
+}
+a:link {
+    color: lightgrey;
+    text-decoration: none;
+}
+a:visited {
+    color: lightgrey;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.search {
+    float: left;
+}
+
+.content {
+    text-align: left;  
+    overflow: scroll;
+    height: 100%;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.quote {
+    color:#9c9895;
+    background-color:	#e6e3de;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    border-width: 50px;
+
+}
+
