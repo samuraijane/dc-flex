@@ -1,0 +1,58 @@
+body, html {
+    background-color: rgb(255, 253, 253);
+    font-family: "Oxygen";
+    margin: 20px 100px;
+    text-align: left;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar ul {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+    font-weight: 600;
+    font-size: 11pt;
+
+}
+
+.header {
+    text-align: center;
+    line-height: 15px;
+    font-weight: 400;
+    margin: 60px auto 40px;
+}
+
+#date {
+    margin: 50px auto 10px;
+    color: #a8a7a5;
+    
+}
+
+.button {
+    background-color: #0099cc;
+    color: white;
+    border:#0099cc;
+    padding: 6px 20px;
+}
+
+.footerlinks {
+    word-spacing: 15pt;
+    text-align: left;
+    margin: 15px auto 25px;
+}
+
+.footer {
+    font-size: 10pt;
+    text-align: center;
+}
+
+#copywlogo {
+    width: 12px;
+    height: 12px;
+}

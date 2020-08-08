@@ -1,0 +1,98 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url(../img/atl.png);
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.topNavbar {
+    float: right;
+    padding: 0 40px;
+}
+.topNavbar>li {
+    display: inline;
+    padding: 20px 20px;
+    font-size: 14px;
+    color: rgba(146, 155, 169, 1);
+}
+
+.intro {
+    display: block;
+    text-align: center;
+    float: center;
+}
+
+.logo {
+    width: 150px;
+    float: center;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 1);
+}
+
+.motto {
+    color: rgba(146, 155, 169, 1);
+}
+
+main {
+    background-color: rgba(244, 244, 244, 1);
+}
+
+.tagline {
+    text-align: center;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.icons {
+    text-align: center;
+    float: center;
+    margin: 0;
+    padding: 0;
+}
+
+.icons h1 {
+    font-weight: normal;
+}
+
+.icons p {
+    font-size: 14px;
+    color: rgba(81, 81, 81, 1)
+}
+
+.users, .hashtags, .moolah {
+    display: inline-block;
+    width: 200px;    /* how to make this responsive and not hardcoded */
+    padding: 0 10px;
+}
+
+footer {
+    background-color: rgba(81, 81, 81, 1);
+    padding: 15px 0 0 0;
+    text-align: center;
+}
+
+.bottomNavbar {
+    padding: 0;
+}
+
+.bottomNavbar>li {
+    display: inline;
+    color: rgba(194, 194, 194, 1);
+    padding: 20px 20px;
+}
+
+.copyright {
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(126, 126, 126, 1);
+    margin: 0;
+    padding: 0 0 10px 0; 
+}
