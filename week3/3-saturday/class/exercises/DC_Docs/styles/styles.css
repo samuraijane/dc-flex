@@ -1,105 +1,91 @@
-body {
-    padding: 0;
+html {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar{
-    background-color:#555555;
-    color:white;
+.leftNavbar {
+    background-color: rgba(85, 85, 85, 1);
     position: fixed;
-    top: 3;
-    left: 3;
-    bottom: 0;
-    width: 190;
+    width: 20%;
     height: 100%;
-    font-family: 'Roboto', sans-serif;
 }
 
-.navtitle {
-    word-spacing: 0px;
-    font-weight: 400;
-    font-size: 17;
-    margin: 0;
-    padding: 30 0 0 20;
+.leftNavbar>h3 {
+    margin: 10px 10px 0 10px;
+    color: rgba(243, 243, 243, 1);
 }
 
-.search {
-    margin: 15 30 40 20;
-    padding: 3 0 3 5;
-    font-size: 12;
-    border: 2px solid;
-    border-radius: 3px;
-    color: #959595;
-}
-.search input {
-    width: 125;
-    border: none;
-    background-color:#555555;
-    color: #959595;
-}
-.navlinks {
-    padding: 0 0 0 20;
-    line-height: 2.5;
+.leftNavbar>input {
+    background-color: rgba(85, 85, 85, 1);
+    border-color: rgba(173, 173, 173, 1);
+    border-radius: 5px;
+    border-style: solid;
+    margin: 0 10px 10px 10px;
 }
 
-.navlinks a{
+.leftNavbar>.navItems {
+    margin: 10px;
+}
+
+.navItems>a {
+    display: block;
+    padding: 10px 0 0 0;
+    color: rgba(173, 173, 173, 1);
     text-decoration: none;
-    color: white;
 }
 
-.navlinks li {
-    list-style-type: none;
-    text-align: left;
+/* how do you get it to stay bolded until after click something else */
+.navItems>a:active {
+    color: rgba(243, 243, 243, 1);
+    font-weight: bold;
 }
 
-.content {
-    margin-left: 220;
-    margin-right: 50;
-    font-family: 'Roboto', sans-serif;
-
+.leftNavbar>.copyright {
+    font-weight: normal;
+    color: rgba(173, 173, 173, 1);
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
 }
 
-.title h1{
-    display:inline;
-    font-weight: 500;
-    font-size: 36;
-    margin: 0 0 0 20;
+main {
+    margin-left: 20%;
+    padding: 20px;
+    background-color: rgba(243, 243, 243, 1);
+    position: absolute;
+    height: fit-content;
+    width: 75%;
+    color: rgba(85, 85, 85, 1);
 }
 
-.title p {
-    margin: 30 0 5 0;
-    font-size: 13;
+.headerOfMain {
+    display: inline;
+    font-size: 12px;
+    color: rgba(173, 173, 173, 1);
 }
 
-.quote {
-    background-color:#e6e3de;
-    margin: 35 0 50 0;
-    border-left: 5px solid #c3c3c2;
-    padding: 0;
+.headerOfMain>img{
+    width: 75px;
+}
+
+.docsTitle {
+    display: inline;
+    margin-left: 10px;
+    font-weight: normal;
+    font-size: 45px;
+    color: rgba(85, 85, 85, 1);
+}
+
+.callOut {
+    background-color: rgba(230, 227, 222, 1);
+    color: rgba(151, 147, 144, 1);
+    padding: 10px;
     font-style: italic;
-    font-size: 13;
-    word-spacing: .2em;;
-    line-height: 1.8em;
-    color: grey;
 }
 
-.bodytext h6{
-    font-weight: bolder;
-    font-size:10;
-    margin: 35 0 15 0;
-}
-
-.bodytext p {
-    font-size: 14;
-}
-
-.quotewords {
-    text-indent: 5%;
-}
-
-.QM2 {
-    float: right;
-}
-
-.quoteauthor {
-    text-align: right;
+.bigLeftQuotes, .bigRightQuotes {
+    display: inline;
+    font-size: 40px;
+    font-weight: bold;
 }
