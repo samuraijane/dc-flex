@@ -1,0 +1,70 @@
+body, header, footer {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.heady {
+    background-image: url(img/atl.png);
+    height: 50%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.contacts>li {
+    display: inline-block;
+    width: 50px;
+    color: #abb6c5;
+}
+.contacts{
+    float: right;
+    font-size: 10px;
+}
+
+.topi {
+    width: 90px;
+}
+.logo{
+    display: block;
+    text-align: center;
+    margin: 0 auto;  
+    color: white;
+    
+}
+
+.turn {
+    line-height: 5px;
+}
+
+h3 {
+    text-align: center;
+    margin: 0 auto;  
+}
+
+.mid>li {
+    display: inline-block;
+    width: 200px;
+}
+.mid{
+    float: center;
+    text-align: center;
+}
+
+footer {
+    float: center;
+    text-align: center;
+    color: #7a7a7a;
+    border-color: black;
+    border-width: 5px;
+    background-color: #515151;
+}
+
+.bottom>li {
+    display: inline-block;
+    width: 100px;
+    color: lightgray;
+    margin: center;
+}
+.bottom{
+    float: center;
+}

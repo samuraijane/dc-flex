@@ -1,31 +1,44 @@
-.navbar-brand img {
-    padding-right: 25px;
-}
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap */
 
-.nav-item a {
-    color: #FFFFFF;
-}
+/* // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { ... } */
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { ... } */
+
+/* // Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */ */
+
 
 .container-fluid {
+    background-color: darkgray;
+}
+
+.navbar-nav ul{
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+
+.navbar-nav li {
+    float: left;
+    margin: 10px;
+}
+
+.card-container {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
+    flex-wrap: wrap;   
+    justify-content: center;
+    margin: 20px 30px auto;
 }
 
 .card {
-    border: none !important;
-    padding-top: 25px;
-    display: flex;
-}
+    width: 200px;
+    margin: 10px;
 
-.card-img {
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px;
-    max-width: 250px;
-}
-
-.card-title {
-    padding-top: 25px; 
 }
