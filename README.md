@@ -12,7 +12,9 @@ With the exception of group projects, all your work will be found on either a pe
 ### Group Branches – for hackathons which begin every two weeks
 Because groups change every two weeks, you will have multiple branches related to them. For example, let's say you are assigned to a group called _DigitalFalcons_. You and your colleagues will have this main group branch so that you can all push to it (in this way, it's very similar to a `master` branch) but each of you will also have a separate branch where you work independently and submit PRs for your main group branch. After you are assigned to a new group during the next two-week period, you will have a new main group branch (e.g. _PenguinsAreDope_) that is shared among your new colleagues along with a branch you will use to submit PRs to this latest group branch. Your branch naming related to groups should follow the pattern below.
   * `group/<yourGroupName>`
+  This is the main branch for your group and it works in the same way that you are already used to with a `master` branch.
   * `<yourGroupName>/<yourFirstName>`
+  This is where you will work independently from the other members of your group. You should periodically submit PRs for this branch to be merged into the main group branch.
 
 ### PR Guidelines
 1. All PRs submitted to `master` should be tagged with @selenestica.
