@@ -1,0 +1,91 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.leftNavbar {
+    background-color: rgba(85, 85, 85, 1);
+    position: fixed;
+    width: 20%;
+    height: 100%;
+}
+
+.leftNavbar>h3 {
+    margin: 10px 10px 0 10px;
+    color: rgba(243, 243, 243, 1);
+}
+
+.leftNavbar>input {
+    background-color: rgba(85, 85, 85, 1);
+    border-color: rgba(173, 173, 173, 1);
+    border-radius: 5px;
+    border-style: solid;
+    margin: 0 10px 10px 10px;
+}
+
+.leftNavbar>.navItems {
+    margin: 10px;
+}
+
+.navItems>a {
+    display: block;
+    padding: 10px 0 0 0;
+    color: rgba(173, 173, 173, 1);
+    text-decoration: none;
+}
+
+/* how do you get it to stay bolded until after click something else */
+.navItems>a:active {
+    color: rgba(243, 243, 243, 1);
+    font-weight: bold;
+}
+
+.leftNavbar>.copyright {
+    font-weight: normal;
+    color: rgba(173, 173, 173, 1);
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    margin-left: 20%;
+    padding: 20px;
+    background-color: rgba(243, 243, 243, 1);
+    position: absolute;
+    height: fit-content;
+    width: 75%;
+    color: rgba(85, 85, 85, 1);
+}
+
+.headerOfMain {
+    display: inline;
+    font-size: 12px;
+    color: rgba(173, 173, 173, 1);
+}
+
+.headerOfMain>img{
+    width: 75px;
+}
+
+.docsTitle {
+    display: inline;
+    margin-left: 10px;
+    font-weight: normal;
+    font-size: 45px;
+    color: rgba(85, 85, 85, 1);
+}
+
+.callOut {
+    background-color: rgba(230, 227, 222, 1);
+    color: rgba(151, 147, 144, 1);
+    padding: 10px;
+    font-style: italic;
+}
+
+.bigLeftQuotes, .bigRightQuotes {
+    display: inline;
+    font-size: 40px;
+    font-weight: bold;
+}

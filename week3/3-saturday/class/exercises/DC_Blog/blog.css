@@ -1,0 +1,55 @@
+
+body, header {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.toptab>li {
+    display: inline-block;
+    width: 100px;
+    color: #8c8c8c;
+}
+.toptab{
+    float: right;
+}
+.intro {
+    display: inline-block;
+    text-align: center;
+    line-height: 15px;
+    margin: auto;
+    
+}
+
+.date {
+    color: #cecece;
+    font-size: 14px;
+    line-height: 5px;
+}
+
+button {
+    color: white;
+    background-color: #4a97c4;
+    border-style: none;
+    font-size: 14px;
+    padding: 5px;
+    
+}
+
+.ipsum{
+    text-align: justify;
+    margin: auto;
+    font-family: Times, 'Times New Roman', serif;
+
+}
+
+hr{
+    background-color:#cfcfcf;
+}
+.bottab>li {
+    display: inline-block;
+    width: 100px;
+    color: #a9a9a9;
+    text-align: left;
+}
+.bottab{
+    text-align: left;
+}
