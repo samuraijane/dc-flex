@@ -1,0 +1,12 @@
+
+.bg {
+
+  background-image: url("../images/pink-bg.jpg");
+  background-color: brown;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
