@@ -12,12 +12,11 @@ body {
   background-color: palegoldenrod;
 }
 
-
 .navbar-brand {
-    color: lightpink !important;
-    text-shadow: 1px 1px purple;
-    font-style: oblique;
-    font-size: 25px;
+  color: lightpink !important;
+  text-shadow: 1px 1px purple;
+  font-style: oblique;
+  font-size: 25px;
 }
 
 .standardtext {
@@ -95,54 +94,54 @@ body {
 }
 
 .header {
-    background-color: #d5e4e9;
-    margin: 20px;
-    padding: 10px;
-    border: solid white;
-  }
-  
-  .text-center {
-      background-image: url(../images/coverphoto_yarn.jpg);
-      background-position: center;
-      background-size: cover;
-  }
+  background-color: #d5e4e9;
+  margin: 20px;
+  padding: 10px;
+  border: solid white;
+}
 
-  .nav-link {
-      text-decoration: none;
-      color: white !important;
-      font-size: 22px;
-      border: double black 4px;
-      background-color: purple;
-  }
+.text-center {
+  background-image: url(../images/coverphoto_yarn.jpg);
+  background-position: center;
+  background-size: cover;
+}
 
-  .logo img {
-      width: 30%;
-  }
+.nav-link {
+  text-decoration: none;
+  color: white !important;
+  font-size: 22px;
+  border: double black 4px;
+  background-color: purple;
+}
 
-  .lead {
-      color: burlywood;
-      text-shadow: black 1px 1px;
-      font-weight: bold;
-  }
+.logo img {
+  width: 30%;
+}
 
-  .cover-heading {
-      color: white;
-      text-shadow: black 2px 2px;
-  }
+.lead {
+  color: burlywood;
+  text-shadow: black 1px 1px;
+  font-weight: bold;
+}
 
-  .inner {
-      color: white;
-      margin: 10px;
-      text-align: center;
-      font-weight: 800;
-      text-shadow: black 1px 1px;
-  }
+.cover-heading {
+  color: white;
+  text-shadow: black 2px 2px;
+}
 
-  .navbar {
-      background-color: palegoldenrod !important;
-      margin: 20px;
-      padding: 10px;
-      border: double white 4px;
+.inner {
+  color: white;
+  margin: 10px;
+  text-align: center;
+  font-weight: 800;
+  text-shadow: black 1px 1px;
+}
+
+.navbar {
+  background-color: palegoldenrod !important;
+  margin: 20px;
+  padding: 10px;
+  border: double white 4px;
 }
 
 .text-center {
@@ -183,4 +182,8 @@ body {
 }
 a.nav-link {
   background-color: rgb(127, 95, 148);
+}
+
+.sign-in-footer {
+  margin: 14px;
 }
