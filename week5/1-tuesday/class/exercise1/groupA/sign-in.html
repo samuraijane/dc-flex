@@ -96,13 +96,26 @@
           <label for="exampleFormControlSelect2"
             >How likely are you to tell someone about our website?</label
           >
-          <select multiple class="form-control" id="exampleFormControlSelect2">
-            <option>Unlikey</option>
-            <option>Somewhat Likely</option>
-            <option>Likely</option>
-            <option>Very Likely</option>
-            <option>Defintely</option>
-          </select>
+
+          <br />
+          <input type="radio" name="input" />
+          <label for="Unlikely" value="unlikely"> Unlikely</label>
+          <br />
+          <input type="radio" name="input" />
+          <label for="Somewhat-Likely" value="somewhat-likely">
+            Somewhat Likely</label
+          >
+          <br />
+
+          <input type="radio" name="input" />
+          <label for="Likely" value="likely"> Likely</label>
+          <br />
+          <input type="radio" name="input" />
+          <label for="Very-Likely" value="very-likely"> Very Likely</label>
+          <br />
+          <input type="radio" name="input" />
+          <label for="Definitely" value="definitely"> Definitely</label>
+          <br />
         </div>
 
         <div class="form-group">
@@ -116,10 +129,12 @@
           ></textarea>
           <br />
         </div>
+        <div class="form-group">
+          <button class="btn btn-primary .btn-lg" type="submit" value="Submit">
+            Submit
+          </button>
+        </div>
       </form>
-      <button class="btn btn-primary .btn-lg" type="submit" value="Submit">
-        Submit
-      </button>
     </div>
     <br />
     <footer class="mastfoot mt-auto">
