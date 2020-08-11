@@ -3,7 +3,7 @@
 
 const button = document.getElementById('myButton');
 
-box.addEventListener('click', function() {
+button.addEventListener('click', function() {
     const boxes = document.getElementsByClassName("box");
     for (let box of boxes) {
         box.style.background = "blue";
