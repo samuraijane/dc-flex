@@ -61,10 +61,11 @@
     </div>
     <br />
     <div class="container">
-      <form>
+      <form id="form">
         <div class="form-group">
           <label for="exampleFormControlInput1">Please enter your name</label>
           <input
+            name="name"
             type="name"
             class="form-control"
             id="exampleFormControlInput1"
@@ -74,6 +75,7 @@
         <div class="form-group">
           <label for="exampleFormControlInput1">Email address</label>
           <input
+            name="email"
             type="email"
             class="form-control"
             id="exampleFormControlInput1"
@@ -84,7 +86,11 @@
           <label for="exampleFormControlSelect1"
             >How long have you been knitting?</label
           >
-          <select class="form-control" id="exampleFormControlSelect1">
+          <select
+            name="duration"
+            class="form-control"
+            id="exampleFormControlSelect1"
+          >
             <option>less than a month</option>
             <option>1-3 months</option>
             <option>3-6 months</option>
@@ -98,21 +104,21 @@
           >
 
           <br />
-          <input type="radio" name="input" />
+          <input type="radio" name="likelyhood" />
           <label for="Unlikely" value="unlikely"> Unlikely</label>
           <br />
-          <input type="radio" name="input" />
+          <input type="radio" name="likelyhood" />
           <label for="Somewhat-Likely" value="somewhat-likely">
             Somewhat Likely</label
           >
           <br />
-          <input type="radio" name="input" />
-          <label for="Likely" value="likely"> Likely</label>
+          <input type="radio" name="likelyhood" />
+          <label for="Likely" value=likely""> Likely</label>
           <br />
-          <input type="radio" name="input" />
+          <input type="radio" name="likelyhood" />
           <label for="Very-Likely" value="very-likely"> Very Likely</label>
           <br />
-          <input type="radio" name="input" />
+          <input type="radio" name="likelyhood" />
           <label for="Definitely" value="definitely"> Definitely</label>
           <br />
         </div>
@@ -122,6 +128,7 @@
             >Share a story about how you got into knitting.</label
           >
           <textarea
+          name="info-comment"
             class="form-control"
             id="exampleFormControlTextarea1"
             rows="3"
@@ -157,5 +164,6 @@
       integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
       crossorigin="anonymous"
     ></script>
+    <script src="sign-in.js"></script>
   </body>
 </html>
