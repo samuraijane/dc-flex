@@ -12,4 +12,4 @@ function stringifyFormData(fd){
         data[key] = fd.get(key);
     }
     return JSON.stringify(data, null, 4);
-}
+};
