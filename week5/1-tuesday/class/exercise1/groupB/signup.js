@@ -21,7 +21,7 @@ form.addEventListener("submit", function(e){
         function listIt(item, index) {
             newDiv.innerHTML += index + ":" + item + "<br>"; 
         }
-        newDiv.innerHTML = `Here is your order: \n\n ${dataInfo}`;
+        newDiv.innerHTML = `Here is your order: \n\n ${data}`;
     }
 );
 });
