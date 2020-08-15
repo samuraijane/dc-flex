@@ -11,6 +11,7 @@ form.addEventListener("submit", function(e){
     postData(stringified).then(data => {
         subbut.disabled=false;
         console.log(`Your form has been submitted with the following data.\n\n${data}`)
+        
     }
 );
 });
