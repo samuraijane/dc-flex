@@ -4,14 +4,19 @@ form.addEventListener("submit", function(e){
     e.preventDefault();
     let subbut = document.getElementById("submit-button");
     subbut.disabled=true;
+    let newDiv = document.createElement('div');
+    newDiv.innerHTML = "Please wait while we review your order..."
+    form.appendChild(newDiv);
+
     console.log(e);
     const data = new FormData(form);
     console.log(stringifyFormData(data));
     const stringified = stringifyFormData(data);
+
     postData(stringified).then(data => {
         subbut.disabled=false;
         console.log(`Your form has been submitted with the following data.\n\n${data}`)
-        
+
     }
 );
 });
