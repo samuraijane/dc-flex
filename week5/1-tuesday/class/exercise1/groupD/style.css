@@ -122,3 +122,9 @@
     padding: 20px;
 }
 
+#gif {
+    width: 500px;
+    margin: auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
