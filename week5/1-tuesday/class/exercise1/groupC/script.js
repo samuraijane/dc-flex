@@ -1,6 +1,5 @@
 var form = document.getElementById("form");
 var submit = document.getElementById("submit");
-var spin = document.createElement('div');
 
 form.addEventListener('submit', (e) => handleSubmit(e));
 
@@ -16,7 +15,6 @@ function stringifyFormData(fd){
 const handleSubmit = e => {
     e.preventDefault();
     submit.disabled = true;
-    // wait message
     const data = new FormData(e.target);
     const stringified = stringifyFormData(data);
     //console.log(stringified);
@@ -35,3 +33,14 @@ const handleSubmit = e => {
     });
     return promise;
   };
+
+
+
+  var popupSpin = document.createElement("div");
+  popupSpin.appendChild("main");
+  popupSpin.style.position = "fixed";
+
+  var spin = document.createElement('img');
+  spin.appendChild("popupSpin");
+  spin.src = "throbber_12.gif"
+  
