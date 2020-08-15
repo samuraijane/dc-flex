@@ -1,5 +1,6 @@
 var form = document.getElementById("form");
 var submit = document.getElementById("submit");
+var spin = document.createElement('div');
 
 form.addEventListener('submit', (e) => handleSubmit(e));
 
@@ -15,6 +16,7 @@ function stringifyFormData(fd){
 const handleSubmit = e => {
     e.preventDefault();
     submit.disabled = true;
+    // wait message
     const data = new FormData(e.target);
     const stringified = stringifyFormData(data);
     //console.log(stringified);
