@@ -6,7 +6,7 @@ form.addEventListener("submit", function(e){
     const data = new FormData(form);
     console.log(stringifyFormData(data));
     const stringified = stringifyFormData(data);
-    postData(stringified).then(data => console.log(`${data} Your form has been submitted`))
+    postData(stringified).then(data => console.log(`Your form has been submitted with the following data.\n\n${data}`))
 });
 
 function stringifyFormData(fd) {
@@ -18,17 +18,10 @@ function stringifyFormData(fd) {
 };
 
 
-// const handleSubmit = e => {
-//     e.preventDefault();
-//     const data = new FormData(e.target);
-//     const stringified = stringifyFormData(data);
-//     postData(stringified).then(data => console.log(`${data} Your form has been submitted`));
-// }
-
 const postData = (data) => {
     const promise = new Promise((res, rej) => {
         setTimeout(() => {
-            res('Success!');
+            res(data);
         }, 1500);
     });
     return promise;
