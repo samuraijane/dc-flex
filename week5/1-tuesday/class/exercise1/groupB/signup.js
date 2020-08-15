@@ -14,6 +14,12 @@ form.addEventListener("submit", function(e){
     console.log(stringifyFormData(data));
     const stringified = stringifyFormData(data);
 
+    let dataInfo = data.forEach(listIt);
+
+    function listIt(item, index) {
+        newDiv.innerHTML += index + ": " + item + "<br />";
+    } 
+
     postData(stringified).then(data => {
         subbut.disabled=false;
         console.log(`Your form has been submitted with the following data.\n\n${data}`)
@@ -21,18 +27,13 @@ form.addEventListener("submit", function(e){
         function listIt(item, index) {
             newDiv.innerHTML += index + ":" + item + "<br>"; 
         }
-        newDiv.innerHTML = `Here is your order: \n\n ${data}`;
+        newDiv.innerHTML = `Here is your order: \n\n ${dataInfo}`;
     }
 );
 });
 
 // NEED TO FIGURE OUT HOW TO INCOPORATE THIS AND THEN CALL IT IN postData function
 
-// let dataInfo = data.forEach(listIt);
-
-// function listIt(item, index) {
-//    newDiv.innerHTML += index + ": " + item + "<br />";
-// } 
 
 function stringifyFormData(fd) {
     const data = {};
