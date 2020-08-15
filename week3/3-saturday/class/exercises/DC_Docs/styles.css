@@ -1,0 +1,137 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar-nav {
+    float: left;
+    height: 98%;
+    width: 300px;
+    background-color: #636360;
+    margin-right: 50px;
+    position: fixed;
+    z-index: 1;
+}
+
+.sidebar-title {
+    text-align: center;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin: 20px;
+}
+
+.sidebar-nav input {
+    width: 185px;
+    height: 25px;
+    margin-left: 52px;
+    background-color: #636360;
+    border: 1px solid;
+    border-color: silver;
+}
+
+.sidebar-nav ul {
+    margin-top: 50px;
+}
+
+.sidebar-nav li {
+    display: block;
+    font-size: 22px;
+    color: #FFFFFF;
+    padding: 15px;
+}
+
+.sidebar-nav a {
+    text-decoration: none;
+}
+
+li:hover {
+    color: rgb(4, 0, 255);
+    opacity: 0.4;
+}
+
+.nav-bottom {
+    font-size: 14px;
+    color: silver;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.container {
+    margin-left: 350px;
+    margin-right: 200px;
+}
+
+.above-logo {
+    clear: bottom;
+    float: top;
+    color: silver;
+    font-size: 19px;
+    margin: 0;
+}
+
+.page-title img {
+    float: left;
+    padding-right: 25px;
+    padding-top: 10px;
+    width: 7%;
+}
+
+.main-heading {
+    float: left;
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin-top: 50px;
+    padding-top: 55px;
+    margin-bottom: 50px;
+}
+
+.content h4 {
+    padding-top: 25px;
+}
+
+.content p {
+    font-size: 18px;
+}
+
+blockquote {
+    font-size: 18px;
+    font-style: italic;
+    width: 95%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 0;
+    padding: 25px;
+    line-height: 1.45;
+    position: relative;
+    background-color: #dbdbd3;
+    color: #383838;
+}
+
+blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+}
+
+blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+    text-align: right;
+}
+
+blockquote cite:before {
+    content: "\2014 \2009";
+}

@@ -1,4 +1,5 @@
 const form = document.getElementById("contact-form");
+const button = document.getElementById("submit");
 
 form.addEventListener('submit', function(e){
     e.preventDefault();
@@ -17,9 +18,13 @@ function stringifyFormData(fd){
 
 const postData = (data) => {
     const promise = new Promise((res, rej) => {
+        button.disabled = true;
         setTimeout(() => {
             res(data);
         }, 1500);
     });
+    setTimeout(() => {
+        button.disabled = false;
+    }, 2000);
     return promise;
 }

@@ -1,0 +1,35 @@
+.content {    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    justify-content: space-around;
+    margin: 0 100 0 100;  
+}
+
+.navbar {
+    background-color: #353a40;
+    text-decoration: none !important;
+    padding-left: 10%;
+    margin-bottom: 20;
+}
+
+.navbar a {
+    color: #9791a1;
+    font-size: 16;
+    font-weight: bold;
+}
+
+.card {
+    width: 200px;
+    color: white;   
+    border: none !important;
+    margin: 0 5 20 0;
+}
+
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18;
+    color: white;
+}
+
