@@ -1,5 +1,11 @@
 let form = document.getElementById("formcoookie");
 
+let datainfo = data.forEach(listIt)
+
+function listIt(item, index) {
+    newDiv.innerHTML += index + ":" + item + "<br>"; 
+  }
+
 form.addEventListener("submit", function(e){
     e.preventDefault();
     let subbut = document.getElementById("submit-button");
@@ -16,7 +22,8 @@ form.addEventListener("submit", function(e){
     postData(stringified).then(data => {
         subbut.disabled=false;
         console.log(`Your form has been submitted with the following data.\n\n${data}`)
-        newDiv.innerHTML = `Here is your order: \n\n ${data}`;
+        newDiv.innerHTML = `Here is your order: \n\n ${dataInfo}`;
+        
     }
 );
 });
