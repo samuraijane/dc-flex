@@ -1,0 +1,10 @@
+.container {
+    margin: auto;
+    width: 600px;
+}
+
+.left-cat {
+    float: left;
+    margin-right: 20px;
+    width: 100px;
+}
