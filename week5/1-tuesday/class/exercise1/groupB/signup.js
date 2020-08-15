@@ -21,6 +21,14 @@ form.addEventListener("submit", function(e){
 );
 });
 
+// NEED TO FIGURE OUT HOW TO INCOPORATE THIS AND THEN CALL IT IN postData function
+
+// let dataInfo = data.forEach(listIt);
+
+// function listIt(item, index) {
+//    newDiv.innerHTML += index + ": " + item + "<br />";
+// } 
+
 function stringifyFormData(fd) {
     const data = {};
     for (let key of fd.keys()){
