@@ -9,6 +9,7 @@ form.addEventListener('submit', function(e){
     const data = new FormData(form);
     const stringified = stringifyFormData(data);
     postData(stringified).then(data => console.log(`Your form has been submitted with the following data.\n\n${data}`));
+    form.reset();
 });
 
 function stringifyFormData(fd){
