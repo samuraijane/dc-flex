@@ -4,12 +4,14 @@ let button = document.getElementById("submit");
 form.addEventListener("submit", function (e) {
   e.preventDefault();
   button.disabled = true;
+
   console.log(e);
   const data = new FormData(form);
   console.log(stringifyFormData(data));
   const stringified = stringifyFormData(data);
   postData(stringified).then((data) => {
     button.disabled = false;
+
     console.log(
       `Your form has been submitted with the following data.\n\n${data}`
     );
