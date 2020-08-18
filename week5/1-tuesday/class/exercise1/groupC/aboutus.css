@@ -1,67 +1,63 @@
 .main {
-    display: flex;
-
+  display: flex;
 }
 
 .sidebar {
-    padding-right: 20px;
-    padding-top: 10px;
-    flex-grow: 1.5;
-    text-align: center;
-    list-style: none;
-    background-color:#87ceeb
+  padding-right: 20px;
+  padding-top: 10px;
+  flex-grow: 1.5;
+  text-align: center;
+  list-style: none;
+  background-color: #87ceeb;
 }
 
 .sidebar a {
-    text-decoration: none;
-    font-size: 25px;
-    display: block;
-    color: white;
-    padding: auto;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  color: white;
+  padding: auto;
 }
 .sidebar ul {
-    list-style-type:none;
+  list-style-type: none;
 }
 .content {
-    flex-grow: 2.5;
+  flex-grow: 2.5;
 }
 
 .jumbotron {
-    background-image: url("img/big-lawn.jpg") ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 30%;
-
-    
+  background-image: url("img/big-lawn.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30%;
 }
 
 .About-Daniel {
-    display: flex;
-    padding-bottom: 25px;
+  display: flex;
+  padding-bottom: 25px;
 }
 .About-Ali {
-    display: flex;
-    padding-bottom: 25px;
+  display: flex;
+  padding-bottom: 25px;
 }
 .About-Elijah {
-    display: flex;
-    padding-bottom: 25px;
+  display: flex;
+  padding-bottom: 25px;
 }
 
 .about-us {
-    display: block;
+  display: block;
 }
 .about-us img {
-    max-width: 50%;
-    height: auto;
-    width: auto;
+  max-width: 50%;
+  height: auto;
+  width: auto;
 }
 
-.jumbo-content p{
-    color: black;
-
+.jumbo-content p {
+  color: black;
 }
 
 .display-4 {
-    color: black;
+  color: black;
 }

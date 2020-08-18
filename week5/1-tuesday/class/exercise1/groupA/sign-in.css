@@ -10,3 +10,6 @@ body {
   margin: 20px;
   padding: 10px;
 }
+a.nav-link {
+  background-color: aquamarine;
+}

@@ -5,7 +5,15 @@
 
 .about-heading {
     text-align: center;
-    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.card-deck {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 50px;
 }
 
 .card {
@@ -40,6 +48,10 @@
     display: flex;
     justify-content: center;
     flex-flow: column nowrap;
+}
+
+#comments {
+    height: 150px;
 }
 
 .carousel-item h5 {

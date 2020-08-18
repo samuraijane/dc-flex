@@ -2,118 +2,131 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div.header {
-    background-image: url("/Users/alexandrakasper/digitalcrafts/dc-flex/week3/3-saturday/class/exercises/DgtlCrfts/img/atl.png");
-    width: 100%;
-    padding: 25px;
-    margin: 0px;
+body {
+    margin: 0;
 }
 
-ul.navbar>li {
-    display: inline-block;
-    width: 75px;
-    margin-bottom: 100px;
-    text-align: center;
+.navbar {
     float: right;
-    font-size: .75em;
+    padding-top: 25px;
+    text-align: center;
+    padding-right: 250px;
+    padding-bottom: 100px;
 }
 
-ul.bottomnav>li {
+.navbar li {
     display: inline-block;
-    width: 75px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-li>a {
-    color: white;
-}
-
-a:link {
-    color: white;
-    text-decoration: none;
-}
-
-img.center {
-    display: block;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    clear: both;
-}
-
-img.logo {
-    width: 100px;
-    margin-top: 50px;
-}
-
-.column {
-    float: left;
-    width: 33.33%;
     padding: 10px;
-    height: 300px;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.navbar a {
+    text-decoration: none;
+    padding: 10px;
+    color: silver;
+    font-size: 14px;
 }
 
-img.icon {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-h1 {
-    color: white;
-    font-weight: normal;
-    text-align: center;
-    font-size: 3em;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-p.white {
-    color: white;
-    text-align: center;
-}
-
-p {
-    color: #343434;
-    text-align: center;
-}
-
-h2 {
-    color: #343434;
-    font-weight: normal;
-    text-align: center;
-}
-
-div.circles {
-    width: 25%;
-}
-
-div.hashtags {
-    width: 25%;
-}
-
-div.moolah {
-    width: 25%;
-}
-
-div.footer {
-    background-color: #343434;
+.page-heading {
+    background-image: url(img/atl.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    padding: 15px;
-    clear: both;
 }
 
-h6.copyright {
-    color: white;
+.logo-image {
+    display: block;
+    width: 15%;
+    height: auto;
+    margin: auto;
+    clear: right;
+}
+
+.main-title {
+    color: #FFFFFF;
     text-align: center;
-    font-weight: normal;
+    font-size: 90px;
+    margin: 25px 0;
+}
+
+.sub-title {
+    color: silver;
+    text-align: center;
+    font-size: 26px;
+    margin: 0;
+    padding-bottom: 150px;
+}
+
+.arrow {
+    display: block;
+    width: 3%;
+    height: auto;
+    margin: auto;
+    padding: 15px;
+}
+
+.content-title {
+    font-size: 48px;
+    text-align: center;
+    padding: 25px;
+    padding-bottom: 0px;
+}
+
+.content-list {
+    float: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.content-list li {
+    display: inline-block;
+    padding: 75px;
+    padding-top: 50px;
+}
+
+.content-list img {
+    padding: 0;
+    margin: 0;
+}
+
+.icon-title {
+    font-size: 36px;
+    text-align: center;
+    padding: 0px;
+}
+
+.icon-sub {
+    font-size: 14px;
+    text-align: center;
+    width: 175px;
+    margin: auto;
+}
+
+footer {
+    background-color: #595f69;
+}
+
+footer p {
+    color: silver;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    padding: 25px;
+}
+
+.footer-nav {
+    float: center;
+    text-align: center;
+}
+
+.footer-nav li {
+    display: inline-block;
+    padding-right: 60px;
+    padding-top: 40px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: silver;
+    font-size: 18px;
 }
