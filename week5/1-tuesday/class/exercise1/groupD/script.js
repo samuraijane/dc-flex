@@ -26,11 +26,11 @@ const postData = (data) => {
         setTimeout(() => {
             res(data);
         }, 1500);
+        setTimeout(() => {
+            button.disabled = false;
+            gif.style.display = "none";
+            form.style.display = "block";
+        }, 2000);
     });
-    setTimeout(() => {
-        button.disabled = false;
-        gif.style.display = "none";
-        form.style.display = "block";
-    }, 2000);
     return promise;
 }
